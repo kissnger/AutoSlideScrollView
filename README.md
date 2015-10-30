@@ -26,7 +26,7 @@
        imageView.clipsToBounds = YES;
         [imageViews addObject:imageView];
       }
-
+        //只此一句代码搞定图片无线轮播功能  把创建好的UIImageView 放进数组里就OK了
       showView = [[PlayImageView alloc] initWithFrame:CGRectMake(0, 20, width, 320)
                                                 views:imageViews];
       
